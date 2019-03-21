@@ -90,6 +90,6 @@ The final mistake we'll cover today is the use of 3D Visualizations. While they 
 Note that there may be some times where a 3D visualization may actually be your best choice, but those are almost always going to be related to visualizing a point cloud in a 3D space. If you absolutely have to use a 3D visualization (or any other sort of visualization where occlusion could be a problem), consider changing the opacity of the visualization to make items more see-through. 
 
 
-# Summary
+## Summary
 
 In this lesson, we saw many examples of bad data visualizations, and learned about how to make great data visualizations by avoiding these mistakes and following the best practices!
