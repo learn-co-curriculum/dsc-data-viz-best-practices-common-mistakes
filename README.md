@@ -28,6 +28,8 @@ So why are Pie Charts a bad choice? The simple answer is because humans don't th
 
 <img src='images/bad_data_viz.png'>
 
+Infographic from [Vox](https://www.vox.com/2014/8/20/6040435/als-ice-bucket-challenge-and-why-we-give-to-charity-donate)
+
 It takes a little while to get a feel for the information this misguided data visualization is trying to get across. It's hard to compare the different items, which is a problem, because the entire goal of this visualization is to show comparisons between the different diseases! 
 
 ## Do: Choose the Right Tool for the Job
@@ -36,6 +38,7 @@ Consider the following Pie Charts:
 
 
 <img src='images/piechart.png'>
+
 
 The pie charts all look pretty much the same. It's hard for us to tell the differences between them, especially when it comes to ranking the different colored sections by size in the each chart. However, when we examine the bar charts below the image,the differences in each become immediately apparent--you couldn't miss them if you tried. 
 
@@ -48,7 +51,8 @@ This one seems like an easy mistake to avoid, but it still happens all the time.
 
 Consider the following infographic, and try to figure out what is wrong with it:
 
-<img src='images/percentages.png' height=50% width=50%>
+<img src='images/new_percentages.png' height="75%" width="75%">
+
 
 There are two things wrong with this infographic. The first is that the percentages add up to 243%, which makes no sense. We can intuit that respondents were allowed to choose more than one category, but that's too ambiguous on its own, and doesn't tell us anything!
 
@@ -59,14 +63,14 @@ The second issue with this visualization is that the area taken up by each color
 
 One of the easier mistakes to make is to make visualizations that simply have so much going on that they are almost impossible to interpret. Consider the line graph below. Take a minute and try to make sense of it.
 
-<img src='images/bad-time-series.png'>
+<img src='images/new_bad-time-series.png' width="600">
 
 Almost impossible, right? Mistakes like this can be avoided by breaking information up into a series of smaller graphs, or by picking a more appropriate type of visualzation, when possible. 
 
 Another big mistake is to try and create new, unique visualizations that people haven't seen before. While it may seem like a good idea to get creative, fight the urge. You don't see weird, unique stuff often for a reason--because they don't work well. Stick to formats people are used to. Switching up things to try and be unique can make your visualization confusing, or in the case below, purposefully misleading!
 
 
-<img src='images/gun-deaths-in-FL.png'>
+<img src='images/new_gun-deaths-in-FL.png' width="400">
 
 In this visualization, the author broke the common convention of having a line go up as a number goes up. Instead, the line goes down as the number of gun deaths in Florida increases. However, most people that view this visualization leave with the exact opposite impression, because they are paying more attention to the direction of the line than they are to the numbers on the y-axis. That's because we focus on **_Preattentive Attributes_** first!
 
@@ -77,7 +81,7 @@ In this visualization, the author broke the common convention of having a line g
 Take a look at some of the examples in the chart below: 
 
 
-<img src='images/preattentive-attributes.png'>
+<img src='images/new_preattentive-attributes.png' width="700">
 
 Note that preattentive attributes are not one size fits all. Most of them work well for certain types of data, but not others. Consider the following chart, and refer back to the preattentive attributes listed above and consider how they would look trying to highlight each different type of information. 
 
@@ -85,7 +89,7 @@ Note that preattentive attributes are not one size fits all. Most of them work w
 
 The final mistake we'll cover today is the use of 3D Visualizations. While they may seem like a cool idea, in practice, they are almost always trouble. The reason for this is because they easily cause **_Occlusion_**, which is just a fancy way of saying that the things in front block the things in back so that you can't see them! For example:
 
-<img src='images/occlusion.png'>
+<img src='images/new_occlusion.png' width="500">
 
 Note that there may be some times where a 3D visualization may actually be your best choice, but those are almost always going to be related to visualizing a point cloud in a 3D space. If you absolutely have to use a 3D visualization (or any other sort of visualization where occlusion could be a problem), consider changing the opacity of the visualization to make items more see-through. 
 
@@ -93,3 +97,8 @@ Note that there may be some times where a 3D visualization may actually be your 
 ## Summary
 
 In this lesson, we saw many examples of bad data visualizations, and learned about how to make great data visualizations by avoiding these mistakes and following the best practices!
+
+
+```python
+
+```
