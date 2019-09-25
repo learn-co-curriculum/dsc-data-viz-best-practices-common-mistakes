@@ -14,13 +14,13 @@ You will be able to:
 
 ## Creating High-Quality Data Visualizations
 
-Creating your own data visualizations can be trickier than it looks. Not because they're hard to code, but because there are so many different stylistic choices you have to make! Most of Data Science is based in math, where there is a provably correct answer. Unfortunately, there is no "right answer" when it comes to building the best data visualization for a given task or project. However, there are some good rules we can follow, and some common mistakes we can avoid. The goal of this lesson is to get you thinking about both of them by looking at some real-world examples. 
+Creating your own data visualizations can be trickier than it looks. Not because they're hard to code, but because there are so many different stylistic choices you have to make! Most of Data Science is based in math, where there is probably a correct answer. Unfortunately, there is no "right answer" when it comes to building the best data visualization for a given task or project. However, there are some good rules we can follow, and some common mistakes we can avoid. The goal of this lesson is to get you thinking about both of them by looking at some real-world examples. 
 
 ## Don't: Use a Pie Chart
 
 From the Wikipedia page on Pie Charts:
 
-> "Pie charts are very widely used in the business world and the mass media. However, they have been criticized, and many experts recommend avoiding them, pointing out that research has shown it is difficult to compare different sections of a given pie chart, or to compare data across different pie charts. Pie charts can be replaced in most cases by other plots such as the bar chart, box plot or dot plots."
+> "Pie charts are very widely used in the business world and the mass media. However, they have been criticized, and many experts recommend avoiding them, pointing out that research has shown it is difficult to compare different sections of a given pie chart, or to compare data across different pie charts. Pie charts can be replaced in most cases by other plots such as the bar chart, box plot, or dot plots."
 
 This is the _second paragraph_ on the page. What does this tell us? Pie charts are such a bad choice for data visualizations that it's own Wikipedia page starts with a warning against using them!
 
@@ -40,7 +40,7 @@ Consider the following Pie Charts:
 <img src='images/piechart.png'>
 
 
-The pie charts all look pretty much the same. It's hard for us to tell the differences between them, especially when it comes to ranking the different colored sections by size in the each chart. However, when we examine the bar charts below the image,the differences in each become immediately apparent--you couldn't miss them if you tried. 
+The pie charts all look pretty much the same. It's hard for us to tell the differences between them, especially when it comes to ranking the different colored sections by size in the each chart. However, when we examine the bar charts below the image, the differences in each become immediately apparent -- you couldn't miss them if you tried. 
 
 When deciding what visualization to use, consider what information you're trying to communicate, and then pick the plot that communicates that information in the most obvious manner. 
 
@@ -61,13 +61,13 @@ The second issue with this visualization is that the area taken up by each color
 
 ## Don't: Make Your Visualizations Too Busy or Unique
 
-One of the easier mistakes to make is to make visualizations that simply have so much going on that they are almost impossible to interpret. Consider the line graph below. Take a minute and try to make sense of it.
+One of the easier mistakes to commit is to make visualizations that simply have so much going on that they are almost impossible to interpret. Consider the line graph below. Take a minute and try to make sense of it.
 
 <img src='images/new_bad-time-series.png' width="600">
 
 Almost impossible, right? Mistakes like this can be avoided by breaking information up into a series of smaller graphs, or by picking a more appropriate type of visualzation, when possible. 
 
-Another big mistake is to try and create new, unique visualizations that people haven't seen before. While it may seem like a good idea to get creative, fight the urge. You don't see weird, unique stuff often for a reason--because they don't work well. Stick to formats people are used to. Switching up things to try and be unique can make your visualization confusing, or in the case below, purposefully misleading!
+Another big mistake is to try and create new, unique visualizations that people haven't seen before. While it may seem like a good idea to get creative, fight the urge. You don't see weird, unique stuff often for a reason -- because they don't work well. Stick to formats people are used to. Switching up things to try and be unique can make your visualization confusing, or in the case below, purposefully misleading!
 
 
 <img src='images/new_gun-deaths-in-FL.png' width="400">
@@ -96,9 +96,4 @@ Note that there may be some times where a 3D visualization may actually be your 
 
 ## Summary
 
-In this lesson, we saw many examples of bad data visualizations, and learned about how to make great data visualizations by avoiding these mistakes and following the best practices!
-
-
-```python
-
-```
+In this lesson, we saw many examples of bad data visualizations and learned about how to make great data visualizations by avoiding these mistakes and following the best practices!
