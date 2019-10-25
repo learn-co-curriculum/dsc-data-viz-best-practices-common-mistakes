@@ -14,7 +14,7 @@ You will be able to:
 
 ## Creating High-Quality Data Visualizations
 
-Creating your own data visualizations can be trickier than it looks. Not because they're hard to code, but because there are so many different stylistic choices you have to make! Most of Data Science is based in math, where there is a provably correct answer. Unfortunately, there is no "right answer" when it comes to building the best data visualization for a given task or project. However, there are some good rules we can follow, and some common mistakes we can avoid. The goal of this lesson is to get you thinking about both of them by looking at some real-world examples. 
+Creating your own data visualizations can be trickier than it looks. Not because they're hard to code, but because there are so many different stylistic choices you have to make! Most of Data Science is based in math, where there is a probably correct answer. Unfortunately, there is no "right answer" when it comes to building the best data visualization for a given task or project. However, there are some good rules we can follow, and some common mistakes we can avoid. The goal of this lesson is to get you thinking about both of them by looking at some real-world examples. 
 
 ## Don't: Use a Pie Chart
 
