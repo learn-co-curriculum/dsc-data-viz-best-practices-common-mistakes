@@ -9,8 +9,8 @@ In this lesson, we'll learn some best practices for creating high-quality data v
 
 You will be able to:
 
-* Identify the 'must-haves' for any data visualization
-* Identify common mistakes
+* Choose a type of visualization that is appropriate for a given set of data
+* Describe how some types of visualizations can be misleading to viewers
 
 ## Creating High-Quality Data Visualizations
 
@@ -97,8 +97,3 @@ Note that there may be some times where a 3D visualization may actually be your 
 ## Summary
 
 In this lesson, we saw many examples of bad data visualizations, and learned about how to make great data visualizations by avoiding these mistakes and following the best practices!
-
-
-```python
-
-```
