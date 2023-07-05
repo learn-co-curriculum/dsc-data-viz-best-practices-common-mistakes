@@ -1,4 +1,3 @@
-
 # Data Visualization - Best Practices and Common Mistakes
 
 ## Introduction
@@ -40,7 +39,7 @@ Consider the following Pie Charts:
 <img src='images/piechart.png'>
 
 
-The pie charts all look pretty much the same. It's hard for us to tell the differences between them, especially when it comes to ranking the different colored sections by size in the each chart. However, when we examine the bar charts below the image,the differences in each become immediately apparent--you couldn't miss them if you tried. 
+The pie charts all look pretty much the same. It's hard for us to tell the differences between them, especially when it comes to ranking the different colored sections by size in the each chart. However, when we examine the bar charts below the image, the differences in each become immediately apparent--you couldn't miss them if you tried. 
 
 When deciding what visualization to use, consider what information you're trying to communicate, and then pick the plot that communicates that information in the most obvious manner. 
 
@@ -65,7 +64,7 @@ One of the easier mistakes to make is to make visualizations that simply have so
 
 <img src='images/new_bad-time-series.png' width="600">
 
-Almost impossible, right? Mistakes like this can be avoided by breaking information up into a series of smaller graphs, or by picking a more appropriate type of visualzation, when possible. 
+Almost impossible, right? Mistakes like this can be avoided by breaking information up into a series of smaller graphs, or by picking a more appropriate type of visualization, when possible. 
 
 Another big mistake is to try and create new, unique visualizations that people haven't seen before. While it may seem like a good idea to get creative, fight the urge. You don't see weird, unique stuff often for a reason--because they don't work well. Stick to formats people are used to. Switching up things to try and be unique can make your visualization confusing, or in the case below, purposefully misleading!
 
